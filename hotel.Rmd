@@ -1,0 +1,13 @@
+---
+title: "Hotel Demand"
+author: "Maja Bedenikovic"
+date: "2024-04-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+data=read.csv('hotel_bookings.csv')
+attach(data)
+```
+
